@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="/style.css">
+  <script src="/script.js"></script>
+  <title>Tic Tac Toe</title>
+</head>
+<body>
+  <table class="x O">
+    <tr>
+      <td id="0-0" onclick="placeSymbol(0, 0)"></td>
+      <td id="0-1" onclick="placeSymbol(0, 1)"></td>
+      <td id="0-2" onclick="placeSymbol(0, 2)"></td>
+    </tr>
+    <tr>
+      <td id="1-0" onclick="placeSymbol(1, 0)"></td>
+      <td id="1-1" onclick="placeSymbol(1, 1)"></td>
+      <td id="1-2" onclick="placeSymbol(1, 2)"></td>
+    </tr>
+    <tr>
+      <td id="2-0" onclick="placeSymbol(2, 0)"></td>
+      <td id="2-1" onclick="placeSymbol(2, 1)"></td>
+      <td id="2-2" onclick="placeSymbol(2, 2)"></td>
+    </tr>
+  </table>
+<div class="scoreboard-container">
+  <div class="scoreboard" id="scoreboard">
+    <p>X: <span class="x" id="x-score">0</span></p>
+    <p>O: <span class="o" id="o-score">0</span></p>
+    <p>Draws: <span id="draw-score">0</span></p>
+  </div>
+
+  <div id="buttons">
+    <button class="button" onclick="resetGame()">Reset Game</button>
+    <button class="button" onclick="resetScoreboard()">Reset Scoreboard</button>
+  </div>
+</div>
+</body>
+</html>

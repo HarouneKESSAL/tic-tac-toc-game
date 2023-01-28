@@ -1,0 +1,122 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+}
+
+table {
+    border-collapse: collapse;
+    width: 350px;
+    height: 350px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px #aaa;
+    animation: zoomIn 0.5s ease-in-out;
+}
+
+td {
+    border: 1px solid #ccc;
+    width: 116px;
+    height: 116px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 50px;
+    font-weight: bold;
+    color: #aaa;
+    transition: all 0.3s ease-in-out;
+}
+
+td:hover {
+    background-color: #f5f5f5;
+    cursor: pointer;
+}
+
+td.x {
+    color: #f44336;
+}
+
+td.o {
+    color: #2196f3;
+}
+
+
+/* Animations */
+@keyframes zoomIn {
+    from {
+        transform: scale(0);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0%);
+    }
+}
+
+.button:hover {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+/* Container for the scoreboard and buttons */
+.scoreboard-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 300px;
+    background-color: rgba(255, 255, 255, 0.8); /* Light background color with transparency */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #aaa;
+    z-index: 999;
+}
+
+/* Scoreboard */
+.scoreboard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.scoreboard .player {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.scoreboard .score {
+    font-size: 16px;
+}
+
+/* Buttons */
+.scoreboard-container .button {
+    padding: 10px 20px;
+    background-color: #4CAF50; /* Green */
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.scoreboard-container .button:hover {
+    background-color: #3e8e41;
+    cursor: pointer;
+}
