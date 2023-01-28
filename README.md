@@ -31,7 +31,3 @@ Feel free to fork this repository and make changes to the code. If you have any 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
-
-## Acknowledgments
-
-- [OpenAI](https://openai.com/) for providing the GPT-3 model that helped in the development of this game.
