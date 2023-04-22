@@ -11,36 +11,8 @@
 
 -----------------------------------------------------------------------------------------------------------------------
 
+# Description
+Cotton Buds is a great hack modification for the game Genshin Impact, which is available for free to all players. A large selection of features, constant updates from the developer, reliable protection, and convenient controls. If you, for some reason, do not run other cheats in Genshin Impact, then we advise you to try this modification. Here are collected all the most necessary cheat functions, in addition to Bypass from the developer, which will allow you to protect your account from global blocking.
 
-# How to use: 
-
-* Turn off Windows Defender / Antiviruses as that may block the loader itself due to false-positive code!
-
-* Download and extract files from the archive (if you don't have archiver, download Winrar or Winzip).
-
-* Open the loader
-
-* Leave a star if this repository helped you!
-
-# Features:
-* Aimbot
-
-* Wallhack
-
-* Xray
-
-* Increase Damage
-
-* Speed hack
-
-* Esp
-
-* Item Esp 
-
-* And over 109+ features
-
-# Known issues:
-* 1. Esp wont work- Fixed
-* 2. After turning on wallhack game crashes - Fixed
-* 3. Increase damage wont work on all weapons- if not working pres Shift + C to reset/fix it
-
+![изображение](https://user-images.githubusercontent.com/76233588/233799165-1fbe986d-180d-4913-a3de-30ffa36e5009.png)
+![изображение](https://user-images.githubusercontent.com/76233588/233799170-9e064a25-6998-4456-ab4a-1f29b7ff3210.png)
